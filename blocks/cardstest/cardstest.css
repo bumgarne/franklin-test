@@ -26,6 +26,7 @@
 
 .cardstest .cardstest-card-body:last-child {
   border-top: 1px solid var(--dark-color);
+  
   margin:0px;
 }
 
