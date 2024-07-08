@@ -7,6 +7,16 @@
   grid-gap: 16px;
 }
 
+.cards.test > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(518px, 1fr));
+  grid-gap: 16px;
+}
+
+
 .cards > ul > li {
   border: 1px solid var(--dark-color);
   background-color: var(--background-color);
